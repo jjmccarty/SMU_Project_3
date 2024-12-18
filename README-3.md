@@ -1,9 +1,8 @@
 # Project 3 -How lifestyle factors impact Diabetes Risk
 
 ## Project Objectives
-1.Determine whether lifestyle factors influence the likelihood of developing Type II diabetes.
+1.To develop a chatbot that assists users with Christmas shopping for book ideas for specific people on their gift list.
 
-2.Identify which lifestyle factors have the greatest impact on the risk of developing Type II diabetes.
 ### Team
 
 The following team members were all original contributors to project
@@ -11,8 +10,7 @@ The following team members were all original contributors to project
 - Armando Zamora
 - Jessica McCarty
 - Philip Klimkewicz
-
-
+- Gazala Siddiqi
 
 ## Project Files
 The following files are the core code for the project
@@ -23,7 +21,7 @@ The following files are the core code for the project
 - ```interface.py```- python file that is used for our UI and prediction of new data.
 
 ## Data Sources
-Data sources for this analysis come from existing publicly available sources on Kaggel https://www.kaggle.com/datasets/prosperchuks/health-dataset.  This data was pulled down as ```'Resources/diabetes_data.csv'``` in the existing project. 
+Data sources for this analysis come from existing publicly available sources on Kaggel https://openlibrary.org/. Additionaly for our LLM model we are using Gemini. 
 
 
 ## Data Processing
