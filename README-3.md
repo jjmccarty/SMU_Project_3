@@ -21,22 +21,12 @@ The following files are the core code for the project
 - ```interface.py```- python file that is used for our UI and prediction of new data.
 
 ## Data Sources
-Data sources for this analysis come from existing publicly available sources on Kaggel https://openlibrary.org/. Additionaly for our LLM model we are using Gemini. 
+Data sources for this analysis come from existing publicly available sources on https://openlibrary.org/. Additionaly for our LLM model we are using Gemini. 
 
 
-## Data Processing
-In this project, we extended our previous work, which was focused on women, by applying a similar approach to a new dataset. To maintain consistency with our prior analysis, we filtered the dataset to exclude male data, ensuring that our analysis remained centered exclusively on female-related information.
-
-During preprocessing, we also evaluated the impact of removing certain features, specifically those related to stroke and heart attack. However, after testing, we found that excluding these features did not significantly improve the model's performance. As a result, we decided to retain these features in the dataset for further analysis, ensuring that our model maintained robustness and accuracy.
-
-
-## Data Outcomes
-All data outcomes are processed in the (```data_outcome.py```)
-
-In our project, we explored various machine learning models to identify the best fit for our data. After rigorous evaluation, Random Forest and Gradient Boosting emerged as the top-performing models. Both models highlighted three key lifestyle factors that significantly impact outcomes: Body Mass Index (BMI), heavy alcohol consumption, and age. These factors consistently influenced predictions, indicating their importance in understanding the patterns within our dataset.
+## Data Processing & Data Outcomes
+In this project, our goal was to assist Christmas shoppers in finding gift ideas for people on their holiday lists. Initially, we planned to identify retail stores that could generate random gift suggestions. However, due to limitations in API access, we had to pivot our approach. This led us to explore the Open Library API, which allowed us to make personalized book recommendations based on user preferences.
 
 
 ## Outcomes/Conclusions
-One conclusion that we found is that the models ran better with Female only data compared to Male only data. The accuracy rate for male data was around 73% and 76% for female only data. 
-
-Our analysis found that while all lifestyle factors affect diabetes risk, some—such as healthy eating, smoking, cholesterol, and physical activity—had a smaller direct impact than anticipated. However, these factors may still indirectly influence primary factors like BMI, illustrating the complex interplay of lifestyle choices on health outcomes. This underscores the need for a holistic approach to lifestyle improvements for effective diabetes prevention.
+One of our key conclusions is that sufficient access to data is essential for a large language model (LLM) to perform effectively. In our case, limited access to retail APIs hindered the model's functionality. Additionally, we discovered that the search criteria significantly influence the results the model retrieves. Properly defining these criteria is crucial for achieving accurate and relevant outputs.
