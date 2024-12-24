@@ -14,11 +14,9 @@ The following team members were all original contributors to project
 
 ## Project Files
 The following files are the core code for the project
-- ```'Resources/diabetes_data.csv`` - data file backing the project dataframe
-- ```data_outcomes.py``` - python file that loads and cleans the data 
-- ```diabetes_data.ipynb``` - notebook for running the models and building the test and train data sets
-- ```data_models.py``` - python file that is used for running the models 
-- ```interface.py```- python file that is used for our UI and prediction of new data.
+- ```project_notebook.ipynb``` - notebook for running the models and building the test and train data sets
+- ```Chat Google Generative AI`` -LLM 
+- ```OpenLibary.org```- API
 
 ## Data Sources
 Data sources for this analysis come from existing publicly available sources on https://openlibrary.org/. Additionaly for our LLM model we are using Gemini. 
